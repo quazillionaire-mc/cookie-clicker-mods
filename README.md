@@ -1,2 +1,5 @@
-# bulk-buy-50
+# Bulk Buy 50
 Adds a 50 button to Cookie Clicker's bulk buy options
+
+## Usage
+Copy the contents of `bulkbuy50-bookmarklet.js` into a browser bookmark for easy access, or just paste the contents of `bulbuy50.js` into the command prompt if you prefer.
