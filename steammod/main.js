@@ -32,7 +32,7 @@ Game.registerMod("bulk-buy-50",{
 			btn.setAttribute('onclick', `Game.storeBulkButton50(${id})`);
 		});
 
-		// Attach a the new function to the Game object
+		// Attach a new function to the Game object
 		Game.storeBulkButton50 = (id) => {
 			if (id === 3.5) {
 				// Make the other buttons de-selected
@@ -53,14 +53,7 @@ Game.registerMod("bulk-buy-50",{
 				l('storeBulk50').classList.remove('selected');
 			}
 		};
-		
-		//note: this mod does nothing but show a notification at the bottom of the screen once it's loaded
-		Game.Notify(`Bulk Buy 50 mod loaded!`,'',[16,5]);
 	},
-	save:function(){
-		//use this to store persistent data associated with your mod
-	},
-	load:function(str){
-		//do stuff with the string data you saved previously
-	},
+	save:function(){},
+	load:function(str){},
 });
