@@ -30,7 +30,7 @@ document.querySelectorAll('.storeBulkAmount').forEach(btn => {
 	btn.setAttribute('onclick', `Game.storeBulkButton50(${id})`);
 });
 
-// Attach a the new function to the Game object
+// Attach a new function to the Game object
 Game.storeBulkButton50 = (id) => {
 	if (id === 3.5) {
 		// Make the other buttons de-selected
