@@ -1,5 +1,5 @@
 {
-	"Name": "Chips Per Sec",
+	"Name": "Chips Per Second",
 	"ID": "chipsPerSec",
 	"Author": "Quazillionaire",
 	"Description": "Adds a display of how many heavenly chips you are gaining per second.",
