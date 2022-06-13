@@ -1,0 +1,12 @@
+{
+	"Name": "Bulk Buy X",
+	"ID": "bulkBuyX",
+	"Author": "Quazillionaire",
+	"Description": "Adds a variable input to Cookie Clicker's bulk buy options.",
+	"ModVersion": 1.0,
+	"GameVersion": 2.048,
+	"Date": "13/06/2022",
+	"Dependencies": [],
+	"Disabled": 1,
+	"AllowSteamAchievs": 1
+}
