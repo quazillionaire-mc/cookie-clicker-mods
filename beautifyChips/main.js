@@ -1,8 +1,8 @@
 Game.registerMod("beautifyChips", {
 	init: () => {
 		let logic = () => {
-			let chips = Number.parseInt(Game.ascendNumber.textContent.replaceAll(/[\+\,]/g, ''));
-			Game.ascendNumber.innerHTML = '+' + Beautify(chips, 1).replace(' ', '&nbsp;');
+			var ascendNowToGet = Math.floor(Game.HowMuchPrestige(Game.cookiesReset + Game.cookiesEarned)) - Math.floor(Game.HowMuchPrestige(Game.cookiesReset));
+			Game.ascendNumber.innerHTML = '+' + Beautify(ascendNowToGet).replace(/\.\d\d/, '').replace(' ', '&nbsp;');
 		};
 
 		Game.registerHook('logic', () => {
