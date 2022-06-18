@@ -3,7 +3,7 @@
 	"ID": "beautifyChips",
 	"Author": "Quazillionaire",
 	"Description": "Formats the heavenly chip count as the user preference dictates.",
-	"ModVersion": 1.1,
+	"ModVersion": 1.2,
 	"GameVersion": 2.048,
 	"Date": "18/06/2022",
 	"Dependencies": [],
