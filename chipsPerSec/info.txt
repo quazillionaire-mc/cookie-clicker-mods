@@ -3,7 +3,7 @@
 	"ID": "chipsPerSec",
 	"Author": "Quazillionaire",
 	"Description": "Adds a display of how many heavenly chips you are gaining per second.",
-	"ModVersion": 1.1,
+	"ModVersion": 1.2,
 	"GameVersion": 2.048,
 	"Date": "12/06/2022",
 	"Dependencies": [],

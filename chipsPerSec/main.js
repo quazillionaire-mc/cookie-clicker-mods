@@ -2,7 +2,7 @@ Game.registerMod("chipsPerSec", {
 	init: () => {
 		// A function to calculate the chips per second
 		let chipsPerSec = () => Math.floor(Game.HowMuchPrestige(Game.cookiesReset + Game.cookiesEarned + (Game.cookiesPs * (1 - Game.cpsSucked))) - Game.HowMuchPrestige(Game.cookiesReset + Game.cookiesEarned));
-		let chipsPerSecStr = () => SimpleBeautify(chipsPerSec()) + '/sec';
+		let chipsPerSecStr = () => (Beautify(chipsPerSec(), 1) + '/sec').replace(' ', '&nbsp;');
 
 		// Create the new HTML element and give it the same attributes as the current ascend chip number
 		let el = document.createElement('div');
