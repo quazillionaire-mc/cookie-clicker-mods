@@ -8,3 +8,4 @@ Also available as mods on the Steam workshop.
 - Bulk Buy X ([Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2820469888)) - Adds a variable input to Cookie Clicker's bulk buy options, allowing custom buy amounts
 - Bulk Buy 50 ([Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2796239524)) - Adds a 50 button to Cookie Clicker's bulk buy options
 - Chips Per Second ([Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2820166963)) - Adds a display of how many heavenly chips you are gaining per second
+- Beautify Chips ([Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2822489419)) - Formats the heavenly chip count according to the user's "Short Numbers" setting
