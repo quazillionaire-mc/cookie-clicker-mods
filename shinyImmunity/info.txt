@@ -1,0 +1,12 @@
+{
+	"Name": "Shiny Immunity",
+	"ID": "shinyImmunity",
+	"Author": "Quazillionaire",
+	"Description": "Shiny wrinklers can survive without the wrath of the Elders, and can only be popped manually.",
+	"ModVersion": 1.0,
+	"GameVersion": 2.048,
+	"Date": "19/06/2022",
+	"Dependencies": [],
+	"Disabled": 0,
+	"AllowSteamAchievs": 1
+}
