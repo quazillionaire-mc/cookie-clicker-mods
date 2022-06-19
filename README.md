@@ -2,7 +2,7 @@
 
 Copy the contents of `*.bookmarklet.js` into a browser bookmark for easy access, or just paste it into your browser's developer console.
 
-Also available as mods on the Steam workshop.
+Also available as mods [on the Steam workshop](https://steamcommunity.com/id/quazillionaire/myworkshopfiles/?appid=1454400).
 
 ## Mod list:
 - Bulk Buy X ([Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2820469888)) - Adds a variable input to Cookie Clicker's bulk buy options, allowing custom buy amounts
