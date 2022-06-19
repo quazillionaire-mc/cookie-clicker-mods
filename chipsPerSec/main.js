@@ -35,7 +35,7 @@ Game.registerMod("chipsPerSec", {
 		};
 
 		Game.registerHook('logic', () => {
-			if (Game.T % 15 == 0) logic();
+			if (Number.isInteger(Game.T / 15)) logic();
 		});
 
 		logic();
