@@ -7,6 +7,7 @@ Game.registerMod("bulkBuyX", {
 			// Make the other buttons de-selected
 			if (Game.buyBulk === 1)   l('storeBulk1').classList.remove('selected');
 			if (Game.buyBulk === 10)  l('storeBulk10').classList.remove('selected');
+			if (Game.buyBulk === 50)  l('storeBulk50').classList.remove('selected');
 			if (Game.buyBulk === 100) l('storeBulk100').classList.remove('selected');
 			if (Game.buyBulk === -1)  l('storeBulkMax').classList.remove('selected');
 			// select the X button
