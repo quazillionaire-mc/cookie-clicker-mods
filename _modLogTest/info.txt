@@ -1,0 +1,12 @@
+{
+	"Name": "Mod Log Test",
+	"ID": "modLogTest",
+	"Author": "Quazillionaire",
+	"Description": "Test Mod Logger.",
+	"ModVersion": 0.1,
+	"GameVersion": 2.048,
+	"Date": "21/06/2022",
+	"Dependencies": [],
+	"Disabled": 0,
+	"AllowSteamAchievs": 1
+}
