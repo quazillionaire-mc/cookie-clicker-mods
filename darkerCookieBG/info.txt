@@ -1,0 +1,12 @@
+{
+	"Name": "Darker Cookie Bank Background",
+	"ID": "darkerCookieBG",
+	"Author": "Quazillionaire",
+	"Description": "Darkens the cookie bank background.",
+	"ModVersion": 1.0,
+	"GameVersion": 2.048,
+	"Date": "22/06/2022",
+	"Dependencies": [],
+	"Disabled": 0,
+	"AllowSteamAchievs": 1
+}
