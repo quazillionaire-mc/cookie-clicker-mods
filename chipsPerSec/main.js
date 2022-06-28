@@ -1,12 +1,19 @@
 Game.registerMod("chipsPerSec", {
 	init: () => {
 		// A function to calculate the chips per second
-		let chipsPerSec = () => Math.floor(Game.HowMuchPrestige(Game.cookiesReset + Game.cookiesEarned + (Game.cookiesPs * (1 - Game.cpsSucked))) - Game.HowMuchPrestige(Game.cookiesReset + Game.cookiesEarned));
-		let chipsPerSecStr = () => (Beautify(chipsPerSec(), 1) + '/sec').replace(' ', '&nbsp;');
+		let chipsPerSec = () => {
+			let allTimeCookies = Game.cookiesReset + Game.cookiesEarned;
+			let currentCPS = Game.cookiesPs * (1 - Game.cpsSucked);
+			let ascendNowToOwn = Game.HowMuchPrestige(allTimeCookies);
+			let ascendInOneSecToOwn = Game.HowMuchPrestige(allTimeCookies + currentCPS);
+			return ascendInOneSecToOwn - ascendNowToOwn;
+		}
+		let prettyChipsPerSec = () => (Beautify(chipsPerSec()) + '/sec');
+
 
 		// Create the new HTML element and give it the same attributes as the current ascend chip number
 		let el = document.createElement('div');
-		el.innerHTML = chipsPerSecStr();
+		el.innerText = prettyChipsPerSec();
 		el.className = "roundedPanel";
 		el.setAttribute('id', 'chipsPerSec');
 
@@ -17,6 +24,7 @@ Game.registerMod("chipsPerSec", {
 		el.style.fontWeight = 'bold';
 		el.style.fontFamily = 'Georgia';
 		el.style.color = '#999';
+		el.style.whiteSpace = 'pre';
 
 		// Find the parent node and the reference node to prepend the new element to
 		let parent = document.querySelector('#legacyButton'),
@@ -27,7 +35,7 @@ Game.registerMod("chipsPerSec", {
 
 		let logic = () => {
 			if (chipsPerSec() > 0) {
-				el.innerHTML = chipsPerSecStr();
+				el.innerText = prettyChipsPerSec();
 				el.style.display = 'block';
 			} else {
 				el.style.display = 'none';
