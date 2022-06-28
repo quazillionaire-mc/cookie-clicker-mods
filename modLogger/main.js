@@ -14,8 +14,6 @@ Game.registerMod("modLogger", {
         let LogLines = [];
         function DrawLog() {
             if (Game.onMenu == 'log') {
-                let str = '<div class="close menuClose" ' + Game.clickStr + '="Game.ShowMenu();">x</div>';
-
                 str += '<div class="modLog monospace">';
                 for (let line of LogLines) {
                     str += line.toString() + '\n';
