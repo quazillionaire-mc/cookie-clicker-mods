@@ -1,0 +1,12 @@
+{
+	"Name": "Even More Backgrounds",
+	"ID": "evenMoreBackgrounds",
+	"Author": "Softi & Quazillionaire",
+	"Description": "Adds even more high-quality backgrounds to the background selector.",
+	"ModVersion": 1.1,
+	"GameVersion": 2.048,
+	"Date": "30/06/2022",
+	"Dependencies": [],
+	"Disabled": 0,
+	"AllowSteamAchievs": 1
+}
