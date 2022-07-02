@@ -1,0 +1,12 @@
+{
+	"Name": "Count Storm Clicks",
+	"ID": "countStormClicks",
+	"Author": "Quazillionaire",
+	"Description": "All golden cookie clicks count towards the 'Golden cookie clicks' stat, including ones from cookie storms.",
+	"ModVersion": 1.0,
+	"GameVersion": 2.048,
+	"Date": "30/06/2022",
+	"Dependencies": [],
+	"Disabled": 0,
+	"AllowSteamAchievs": 1
+}
