@@ -10,4 +10,4 @@ Also available as mods [on the Steam workshop](https://steamcommunity.com/id/qua
 - **Chips Per Second** ([Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2820166963)) - Adds a display of how many heavenly chips you are gaining per second
 - **Beautify Chips** ([Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2822489419)) - Formats the heavenly chip count according to the user's "Short Numbers" setting
 - **Shiny Immunity** ([Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2823032087)) - Shiny wrinklers can survive without the wrath of the Elders, and can only be popped manually
-- **Even More Backgrounds** ([Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2828583022)) - (Artwork by Softi) Adds even more high-quality backgrounds to the background selector.git push
+- **Even More Backgrounds** ([Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2828583022)) - Artwork by [Softi](https://twitter.com/softisafe) - Adds even more high-quality backgrounds to the background selector
