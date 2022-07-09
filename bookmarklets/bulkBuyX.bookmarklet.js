@@ -1,1 +1,0 @@
-javascript:(()=>{Game.LoadMod("https://quazillionaire.github.io/cookie-clicker-mods/bulkBuyX/main.js")})()
